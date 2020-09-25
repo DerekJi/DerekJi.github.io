@@ -5,7 +5,7 @@ BRANCH=gh-pages
 ROOT_DIR=$PWD
 
 # PREPARE
-ls | grep -v bin | xargs rm -rf
+ls | grep -v bin README.md | xargs rm -rf
 
 # Clone & checkout
 URL="https://github.com/DerekJi/$REPOS.git"
