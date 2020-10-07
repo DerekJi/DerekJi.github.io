@@ -1143,7 +1143,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
-FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 30, vars: 0, consts: [[1, "container", "text-center", "section-padding-y"], [1, "row", "px-4"], [1, "col-lg-7", "mx-auto"], [1, "text-uppercase", "mb-0"], [1, "cv-text-primary", "text-uppercase", "mb-0", "letter-spacing-3"], [1, "text-muted", "my-4"], [1, "list-inline", "mb-0"], [1, "list-inline-item"], ["href", "https://www.facebook.com/zhigangji", 1, "social-link"], [1, "fa", "fa-facebook-f"], ["href", "https://twitter.com/zil_ji", 1, "social-link"], [1, "fa", "fa-twitter"], ["href", "https://www.linkedin.com/in/derek-ji-114004168/", 1, "social-link"], [1, "fa", "fa-linkedin"], ["href", "https://medium.com/@derek_ji", 1, "social-link"], [1, "fa", "fa-medium"], [1, "copyrights", "px-4"], [1, "container", "py-4", "border-top", "text-center"], [1, "mb-0", "text-muted", "py-2"], ["href", "https://bootstraptemple.com"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 33, vars: 0, consts: [[1, "container", "text-center", "section-padding-y"], [1, "row", "px-4"], [1, "col-lg-7", "mx-auto"], [1, "text-uppercase", "mb-0"], [1, "cv-text-primary", "text-uppercase", "mb-0", "letter-spacing-3"], [1, "text-muted", "my-4"], [1, "list-inline", "mb-0"], [1, "list-inline-item"], ["href", "https://www.facebook.com/zhigangji", 1, "social-link"], [1, "fa", "fa-facebook-f"], ["href", "https://twitter.com/zil_ji", 1, "social-link"], [1, "fa", "fa-twitter"], ["href", "https://www.linkedin.com/in/derek-ji-114004168/", 1, "social-link"], [1, "fa", "fa-linkedin"], ["href", "https://medium.com/@derek_ji", 1, "social-link"], [1, "fa", "fa-medium"], [1, "copyrights", "px-4"], [1, "container", "py-4", "border-top", "text-center"], [1, "mb-0", "text-muted", "py-2"], ["href", "https://bootstraptemple.com"], ["href", "https://www.hitwebcounter.com", "target", "_blank"], ["src", "https://hitwebcounter.com/counter/counter.php?page=7685866&style=0001&nbdigits=5&type=ip&initCount=0", "height", "12", "title", "Total Website Hits", "Alt", "Web Hits", "border", "0"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
@@ -1190,6 +1190,11 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Bootstrap Temple");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, ". ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "a", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "img", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
